@@ -6,13 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>document.write</title>
 </head>
+<style>
+    body{
+        background-color: black;
+    }
+    p{
+        font-size: 5em;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>
 <body>
     
 
 
     <script>
         var nome = window.prompt('Qual é o seu nome?')
-        document.write(`seu nome tem ${nome.length} letras`) 
+        document.write(`<p>Olá, ${nome}! seu nome tem ${nome.length} letras</p>`) 
+        document.write(`<p>seu nome em maiúsculas é ${nome.toUpperCase()} </p>`)
+        document.write(`<p>seu nome em minúsculas é ${nome.toLocaleLowerCase()} </p>`)
     </script>
 </body>
 </html>
