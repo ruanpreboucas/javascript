@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma</title>
+</head>
+<style>
+    body{
+        background-color: rgba(8, 78, 176, 0.795);
+        font-size: 1.5em;
+        color: white;
+        text-shadow: 1px 2px 1px rgb(0, 0, 0);
+    }
+</style>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição :D</p>
+    <script>
+
+        // Covertendo e concatenando:
+        /* var n1 =Number.parseFloat(window.prompt('Digite um número')) //window.prompt retorna o valor com string sempre
+        var n2 =Number.parseFloat(window.prompt('Digite outro número'))
+        var soma = Number.parseFloat(n1) + Number.parseFloat(n2)
+        window.alert('A soma de ' + n1 + ' mais '+ n2 + ' é igual a: ' + soma)
+        
+        //JavaScript interpretando o tipo da variavel sozinho:
+        var n1 =Number('Digite um número') //window.prompt retorna o valor com string sempre
+        var n2 =Number('Digite outro número')
+        var soma =n1 + n2
+        window.alert('A soma de ' + n1 + ' mais '+ n2 + ' é igual a: ' + soma)*/
+
+        //Covertendo number pra string:
+
+        /*var n1 =Number(window.prompt('Digite um número')) //window.prompt retorna o valor com string sempre
+        var n2 =Number(window.prompt('Digite outro número'))
+        var soma =n1 + n2
+        window.alert('A soma de ${n1} mais ${n2} é igual a: ' + String (soma))*/
+        // Da para fazer: s.toString() também
+
+        var n1 =Number(window.prompt('Digite um número')) //window.prompt retorna o valor com string sempre
+        var n2 =Number(window.prompt('Digite outro número'))
+        var soma = n1 + n2
+        // NÃO É ASPAS É CRASEEEEEEEEE!!!!!
+        window.alert(`A soma de ${n1} mais ${n2} é igual a: ${soma} `) //template string
+       
+    </script> 
+</body>
+</html>
