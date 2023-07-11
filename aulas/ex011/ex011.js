@@ -1,4 +1,4 @@
-var idade = 89
+var idade = 88
 
 console.log(`Você tem ${idade} anos`)
 if (idade <16){

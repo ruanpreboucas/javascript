@@ -11,7 +11,7 @@ var diaSem = agora.getDay()
  6- Sábado
 */
 
-console.log(`Hoje é ${diaSem}`)
+console.log(`Hoje é `)
 
 switch (diaSem){
     case 0:
